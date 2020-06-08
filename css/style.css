@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  height:100vh;
+  width: 100%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+
+}
+
+.stunden {
+  grid-column-start:1;
+  grid-column-end:1;
+  grid-row-start:1;
+  grid-row-end:1;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  z-index: 2;
+}
